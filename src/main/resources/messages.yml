@@ -1,0 +1,45 @@
+#####################################################################
+#            __  __                                                 #
+#           |  \/  |                                                #
+#           | \  / | ___  ___ ___  __ _  __ _  ___  ___             #
+#           | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \/ __|            #
+#           | |  | |  __/\__ \__ \ (_| | (_| |  __/\__ \            #
+#           |_|  |_|\___||___/___/\__,_|\__, |\___||___/            #
+#                                        __/ |                      #
+#                                       |___/                       #
+#####################################################################
+#
+#
+# This file allows you to edit MOST messages in the plugin, there are some messages you
+# cannot edit as they are hard coded into the plugin, if you really want those messages
+# to be editable (and if there is enough support for it) I will try and add it.
+# Please note that if there is ever an update to this file, like new message were added
+# we take the liberty to automatically add the value into this file BUT due to the way
+# Bukkit/Spigot save configuration files all of my 'helpful' comments are removed. So it
+# is recommended before updating to the newest version to backup your config and messages
+# file to save your work and to keep the comments.
+#
+# If you have questions you can post an issue on Github
+# (https://github.com/itsschatten/PCI_Economy/issues) Also helpful if you want to
+# see the code for the plugin.
+# You may also join my Discord support server (https://discord.gg/BmWrNam7Sp)
+
+prefix: "&dPCI ECON &8»&f"
+
+update-available: |+
+
+  &7There is an update for &dPCI Economy&7!
+  &7We recommened that you update to the latest version!
+  &bCurrent &e{currentVer} &bNew Version &e{newVer}&7.
+  &7Click the link to get it. &e{link}
+
+not-enough-money: "{prefix} &cYou don't have enough money to open this inventory; need {needed} balance {balance}."
+
+# The message that is sent to whomever reloaded the configs
+reload-message: "{prefix}&a The plugin has been reloaded."
+
+# The message that is sent to whomever reloaded the specified config.
+reload-message-specific: "{prefix}&a The file {file} was reloaded."
+
+# A message that is sent if an argument is incorrect for the command.
+wrong-args: "{prefix}&c You've added inappropriate arguments!"

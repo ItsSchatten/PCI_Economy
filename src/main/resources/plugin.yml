@@ -1,0 +1,15 @@
+name: PCI_Econ
+main: ${main}
+api-version: 1.13
+version: ${version}
+depend: [ PortableCraftingInvs, Vault ]
+permissions:
+  pci_econ.update:
+    description: "Update permission"
+    default: op
+  pci_econ.reload:
+    description: "Reload permission"
+    default: op
+  pci_econ.free:
+    description: "Free perm"
+    default: op

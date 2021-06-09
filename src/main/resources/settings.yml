@@ -1,0 +1,124 @@
+########################################################################################
+#                                                                                      #
+#                        _____      _   _   _                                          #
+#                       / ____|    | | | | (_)                                         #
+#                      | (___   ___| |_| |_ _ _ __   __ _ ___                          #
+#                       \___ \ / _ \ __| __| | '_ \ / _` / __|                         #
+#                       ____) |  __/ |_| |_| | | | | (_| \__ \                         #
+#                      |_____/ \___|\__|\__|_|_| |_|\__, |___/                         #
+#                                                    __/ |                             #
+#                                                   |___/                              #
+#                                                                                      #
+########################################################################################
+#
+# This file can be used to enable or disable all parts of the plugin.
+#
+# If you have questions you can post an issue on Github
+# (https://github.com/itsschatten/PCI_Economy/issues) Also helpful if you want to
+# see the code for the plugin.
+# You may also join my Discord support server. (https://discord.gg/BmWrNam7Sp)
+
+# As with the main plugin I do not recommend enabling this unless you want your console filled with debug messages.
+debug: false
+
+# If this is set to true, when there is an update to the plugin admins, with the correct
+# permissions (pci_econ.update) and console will be notified. You can set a custom message
+# in the messages.yml if you want.
+use-updater: true
+
+# Set the interval that we should check for updates, IN MINUTES. By default this is 30.
+update-check-interval: 30
+
+# If enabled we allow the usages of free open charges.
+allow-free-charges: true
+
+# If enabled and the player has the permission pci_econ.free, all inventory opening will be free for the user.
+allow-free-perm: false
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                   Economy  Features                                   #
+#                                                                                       #
+# ------------------------------------------------------------------------------------- #
+
+# When true the users will be required to pay to open an anvil unless they have a free charge.
+use-anvil-charges: true
+
+# When true the users will be required to pay to open a brewing stand unless they have a free charge.
+use-brewing-charges: true
+
+# When true the users will be required to pay to open a cartography table unless they have a free charge.
+use-cartography-charges: true
+
+# When true the users will be required to pay to open an enchanting table unless they have a free charge.
+use-enchant-charges: true
+
+# When true the users will be required to pay to open a furnace unless they have a free charge.
+# All of the furnaces are grouped into this option.
+use-furnace-charges: true
+
+# When true the users will be required to pay to open a grindstone unless they have a free charge.
+use-grindstone-charges: true
+
+# When true the users will be required to pay to open a loom unless they have a free charge.
+use-loom-charges: true
+
+# When true the user will be required to pay to open a stone cutter unless they have a free charge.
+use-stonecutter-charges: true
+
+# When true the users will be required to pay to open a smithing table unless they have a free charge.
+use-smithing-charges: true
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                          Costs                                        #
+#                                                                                       #
+# ------------------------------------------------------------------------------------- #
+
+# The below values are for when the user runs out of free charges and must play to open the
+# inventory, this does support "cent" values.
+
+anvil-cost: 100
+
+brewing-cost: 100
+
+cartography-cost: 100
+
+enchant-cost: 100
+
+furnace-cost: 100
+
+grindstone-cost: 100
+
+loom-cost: 100
+
+smithing-cost: 100
+
+stonecutter-cost: 100
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                   Default Free Charges                                #
+#                                                                                       #
+# ------------------------------------------------------------------------------------- #
+
+# This section lists the amount of free charges the player gets for each inventory, default is
+# 3 for all of them.
+
+anvil-free: 3
+
+brewing-free: 3
+
+cartography-free: 3
+
+enchant-free: 3
+
+furnace-free: 3
+
+grindstone-free: 3
+
+loom-free: 3
+
+smithing-free: 3
+
+stonecutter-free: 3
